@@ -1,2 +1,5 @@
 *.env
 /mariadb_data
+
+**/migrations/*.py
+!**/migrations/__init__.py
