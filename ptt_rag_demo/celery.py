@@ -10,6 +10,7 @@ app.autodiscover_tasks()
 
 app.conf.imports = [
     "celery_app.scraper",
+    "celery_app.data_processing",
 ]
 
 app.conf.beat_schedule = {
